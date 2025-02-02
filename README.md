@@ -29,7 +29,7 @@ dnf install -y s-nail
 2. Configure s-nail for Email Notifications
 Enable 2-Step Verification and generate an App Password in your Google Account Security Settings.
 
-![P2](snippet/Screenshot(683).png)
+![P2](snippet/Screenshot_683.png)
 
 Configure s-nail:
 
@@ -56,7 +56,7 @@ set smtp-use-starttls
 
 Note: Replace APP_PASSWORD with the password you generated in your Google account.
 
-![P4](snippet/Screenshot(685).png)
+![P4](snippet/Screenshot_685.png)
 
 3. Create the Monitoring Script (free_mem.sh)
 Create the script:
@@ -120,7 +120,7 @@ Test the script manually:
 
 Check your email to verify if you receive the alert when memory, CPU, or disk usage exceeds the set thresholds.
 
-![P6](snippet/Screenshot(687).png)
+![P6](snippet/Screenshot_687.png)
 
 Verify the cron job: To confirm that the cron job is set up correctly, run:
 
